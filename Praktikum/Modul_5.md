@@ -12,19 +12,13 @@ Dynamic route adalah route yang dapat berubah-ubah, seperti ketika kita membuka 
 
 ![Dynamic Route user/id](../Screenshot/Modul_5/1_user_id.png)
 
-<br>
-
 Kita juga dapat membuat dynamic route yang tidak hanya terbatas satu variabel saja. Kita dapat menambahkan sebanyak yang diperlukan seperti pada syntax berikut lalu melakukan request
 
 ![Dynamic Route post/id/comments/id](../Screenshot/Modul_5/2_post_id_comments_id.png)
 
-<br>
-
 Kita juga dapat membuat optional route pada dynamic route. Optional route tidak mengharuskan kita untuk memberi variabel ketika memanggil endpoint. Contoh optional route seperti syntax berikut lalu melakukan request
 
 ![Dynamic Route Optional Route](../Screenshot/Modul_5/3_users_null.png)
-
-<br>
 
 ### Aliases Route
 
@@ -32,15 +26,11 @@ Aliases route digunakan untuk memberi nama route yang telah kita buat, hal ini m
 
 ![Aliases Route](../Screenshot/Modul_5/4_aliases.png)
 
-<br>
-
 ### Group Route
 
 Group route memudahkan kita saat penulisan kode route pada file web.php. Kita dapat menggunkaan syntax berikut ini unuk membuat group route lalu melakukan request
 
 ![Group Route](../Screenshot/Modul_5/5_group_route.png)
-
-<br>
 
 ### Middleware
 
@@ -48,12 +38,8 @@ Middleware digunakan untuk memfilter permintaan HTTP yang masuk pada aplikasi ki
 
 ![Membuat AgeMiddleware](../Screenshot/Modul_5/6_AgeMiddleware.png)
 
-<br>
-
 Kemudian, kita mendaftarkan AgeMidleware pada file `bootstrap/app.php` seperti dibawah ini
 ![Register Middleware](../Screenshot/Modul_5/7_register_middleware.png)
-
-<br>
 
 Terakhir, kita menambahkan middleware pada routes menambahkan opsi
 middleware pada salah satu route seperti dibawah ini lalu melakukan request
