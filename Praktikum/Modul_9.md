@@ -107,7 +107,7 @@ JSON Web Token (JWT) adalah standar terbuka yang mendefinisikan cara ringkas dan
 
 ### JWT Library
 
-1. Melakukan generate jwt key secara online menggunakan website Djecrety ― Django Secret Key Generator<br>
+1. Melakukan generate jwt key secara online menggunakan website Djecrety dan menambahkan pada .env <br>
    ![generate jwt key](../Screenshot/Modul_9/10_Djecrety.png)
    ![Instalasi package jwt firebase](../Screenshot/Modul_9/11_JWT_SECRET_ENV.png)
 2. Melakukan instalasi package jwt firebase dengan menggunakan command `composer require firebase/php-jwt`<br>
